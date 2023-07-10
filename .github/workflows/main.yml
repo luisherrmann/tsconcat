@@ -1,0 +1,25 @@
+name: Tests
+on: [workflow_dispatch, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 4
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Python 3.9
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.9
+      - uses: pre-commit/action@v3.0.0
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+      - name: Install dependencies and run tests
+        run: |
+          poetry install
+          poetry env use python3.9
+          poetry run task test
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.

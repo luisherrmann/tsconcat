@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "tsconcat"
+version = "0.1.0"
+description = "A tool for joining multiple, homogeneous tensorstore datasets using the N5 driver into a single dataset."
+authors = ["Luis Herrmann"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tensorstore = "^0.1.33"
+addict = "^2.4.0"
+tqdm = "^4.65.0"
+taskipy = "^1.10.3"
+numpy = "^1.22.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.2"
+pytest-lazy-fixture = "^0.6.3"
+pytest-pudb = "^0.7.0"
+pre-commit = "^3.1.1"
+ipykernel = "^6.22.0"
+notebook = "^6.5.4"
+coverage = "^7.2.7"
+tox = "^4.6.3"
+pybadges = "^3.0.0"
+
+[tool.taskipy.tasks]
+test = "pytest -v test"
+coverage-test = "coverage run -m pytest -v test --import-mode importlib && coverage xml"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
