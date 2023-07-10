@@ -1,9 +1,9 @@
 [![python](https://img.shields.io/badge/-Python_3.8_%7C_3.9_%7C_3.10_%7C_3.11-blue?logo=python&logoColor=white)](https://docs.python.org/3/)
 [![black](https://img.shields.io/badge/Code%20Style-Black-black.svg?labelColor=gray)](https://black.readthedocs.io/en/stable/)
-![Tests](https://github.com/luisherrmann/tsconcat_private/workflows/Tests/badge.svg?branch=master)
-![Build](https://github.com/luisherrmann/tsconcat_private/workflows/Build/badge.svg?branch=master)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=luisherrmann_tsconcat_private&metric=coverage&token=0d40140507fe7315b266b70b845b1abe3de69f8e)](https://sonarcloud.io/summary/new_code?id=luisherrmann_tsconcat_private)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=luisherrmann_tsconcat_private&metric=reliability_rating&token=0d40140507fe7315b266b70b845b1abe3de69f8e)](https://sonarcloud.io/summary/new_code?id=luisherrmann_tsconcat_private)
+![Tests](https://github.com/luisherrmann/tsconcat/workflows/Tests/badge.svg?branch=main)
+![Build](https://github.com/luisherrmann/tsconcat/workflows/Build/badge.svg?branch=main)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=luisherrmann_tsconcat&metric=coverage&token=0d40140507fe7315b266b70b845b1abe3de69f8e)](https://sonarcloud.io/summary/new_code?id=luisherrmann_tsconcat)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=luisherrmann_tsconcat&metric=reliability_rating&token=0d40140507fe7315b266b70b845b1abe3de69f8e)](https://sonarcloud.io/summary/new_code?id=luisherrmann_tsconcat)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
